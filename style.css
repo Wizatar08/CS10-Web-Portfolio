@@ -1,0 +1,165 @@
+body {
+  margin: 0 auto;
+  box-align: center;
+  background-color: #000000;
+
+  /* This sets the background image for the entire page */
+  background: url("images/background/pfp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* References all paragraphs of text and determines spacing between other paragraphs. */
+p {
+  font-family: 'Nanum Gothic';
+  max-width: 780px;
+  padding: 0px 20px 0px 20px;
+}
+
+/* Sets title headers (in my case, h1 headers) to the font Zen Dots */
+h1 {
+  font-family: 'Zen Dots';
+}
+
+/* Sets title subheaders (in my case, h2 headers) to the font Krona One */
+h2 {
+  font-family: 'Krona One';
+}
+
+/* Sets all project headers for the portfolio (in my case, h3 headers) */
+h3 {
+  font-family: 'Krona One';
+  text-align: center;
+  color: white
+}
+
+/* Sets all project type headers for the portfolio (in my case, h4 headers) */
+h4 {
+  text-align: center;
+  font-family: 'Zen Dots';
+  color: #BDBD27;
+}
+
+/* Styles the text for image cations on the About Me page */
+figcaption {
+  font-family: 'Krona One';
+  font-size: 12px;
+  color: #999;
+}
+
+/* Styles the whole header*/
+header {
+  background-color: #46699566;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+/* Aligns the options panel on the header */
+header ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Styles the invividual options on the header */
+header li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+/* Styles the text and surrounding area on each individual part of the header */
+header li a {
+  color: #ED3A06;
+  text-decoration: none;
+  background-color: #0450C5;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-family: 'Zen Dots';
+  border-radius: 10px;
+}
+
+/* Styles the text and surrounding area on each individual part of the header when it is hovered over my the mouse */
+header li a:hover {
+  color: #0450C5;
+  text-decoration: none;
+  background-color: #ED3A06;
+  padding: 15px 20px;
+  font-weight: 1200;
+  border-radius: 10px;
+}
+
+/* Styles an entire block of text (different from <p>, where p styles a paragraph, this styles the entire text block) */
+.pageText {
+  padding-top: 5px;
+  position: relative;
+  top: 120px;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(64, 64, 64, 90%);
+  padding-bottom: 15px;
+  color: #FFFFFF;
+}
+
+/* Styles the list of projects on the Portfolio page */
+.portfolio {
+  background-color: #444A;
+  position: relative;
+  max-width: 1000px;
+  top: 100px;
+  margin: 30px auto -10px auto;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+/* Sets the alignment for the entire list of projects on the Portfolio page */
+.portfolio ul {
+  margin: auto;
+  text-align: center;
+}
+
+/* Styles each individual element in the list of projects on the Portfolio page */
+.portfolio li {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  border: 3px solid #338815;
+  background-color: #1A440A;
+  margin-bottom: 3px;
+}
+
+/* Styles the text on each individual element in the list of projects on the Portfolio page */
+.portfolio li a {
+  color: #ED3A06;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-family: 'Zen Dots';
+  text-align: center;
+}
+
+/* Styles each individual element in the list of projects on the Portfolio page when heovered over with a mouse */
+.portfolio li:hover {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  border: 3px solid #22A812;
+  background-color: #0A2204;
+  margin-bottom: 3px;
+}
+
+/* Aligns the text on the contact page */
+.contactInfo {
+  text-align: center;
+}
+
+/* Aligns all the images */
+.indexImage {
+  text-align: center;
+}
